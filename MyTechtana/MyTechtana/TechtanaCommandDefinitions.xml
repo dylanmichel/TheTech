@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2" >
+  <CommandSet xml:lang="en-us" Name="MyTechCommands">
+    <CommandPrefix> Techtana </CommandPrefix>
+    
+    <Example> Open MyTech </Example>
+
+    <Command Name="openMyTech">
+      <Example> Open MyTech </Example>
+
+      <ListenFor> [Open][Bring Up][Pop up][Show me] MyTech </ListenFor>
+      <ListenFor> [Take me][Bring me] to MyTech</ListenFor>
+      <ListenFor> My tech {*}</ListenFor>
+
+
+      <Feedback> Opening MyTech </Feedback>
+
+      <Navigate/>
+    </Command>
+
+    <Command Name="openMyTechnology">
+      <Example> Open MyTechnology </Example>
+
+      <ListenFor> [Open][Can I see][Show me][Bring up][Open up][Can you show me][Take me to][I want to see] my technology </ListenFor>
+      <ListenFor> What technology do I have</ListenFor>
+      <ListenFor> my technology {*}</ListenFor>
+
+      <Feedback> Showing you your technology </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="openMyTechGuide">
+      <Example> Open the MyTech guide </Example>
+
+      <ListenFor> Open the my tech guide </ListenFor>
+      <ListenFor> Show me the my tech guide </ListenFor>
+      <ListenFor> Bring up the my tech guide </ListenFor>
+      <ListenFor> Pop up the my tech guide </ListenFor>
+      <ListenFor> Open up the my tech guide</ListenFor>
+
+      <Feedback> Bringing up the MyTech Guide </Feedback>
+      <Navigate/>
+    </Command>
+
+
+
+
+    <Command Name="openRequests">
+      <Example> Open my requests </Example>
+
+      <ListenFor> Open my requests </ListenFor>
+      <ListenFor> Show me my requests </ListenFor>
+      <ListenFor> Bring up my requests </ListenFor>
+      <ListenFor> Pop up my requests </ListenFor>
+      <ListenFor> What requests do I have </ListenFor>
+      <ListenFor> What stuff did I request</ListenFor>
+      <ListenFor> What things did I request</ListenFor>
+      <ListenFor> What have I requested</ListenFor>
+      <ListenFor> What request do I have </ListenFor>
+      <ListenFor> Can I see my requests</ListenFor>
+
+
+      <Feedback> Lets see your requests </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="openRefresh">
+      <Example> Open my refresh page </Example>
+
+      <ListenFor> Open my refresh page </ListenFor>
+      <ListenFor> What can I refresh </ListenFor>
+      <ListenFor> [Im due for][I need] a refresh  </ListenFor>
+      <ListenFor> Can I make an upgrade </ListenFor>
+      <ListenFor> Show me what I can refresh </ListenFor>
+      <ListenFor> Can you show me what I can refresh</ListenFor>
+      <ListenFor> What stuff can I refresh</ListenFor>
+      <ListenFor> Show me what stuff I can refresh </ListenFor>
+      <ListenFor> I need a refresh </ListenFor>
+      <ListenFor> Refresh {*} </ListenFor>
+
+      <Feedback> If you're going to refresh/upgrade just choose any eligible device </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="openRPhone">
+      <Example> I want to request a mobile phone </Example>
+
+      <ListenFor> [I want to][Where can I][Would like to][Can I][Can you] {mobileR} </ListenFor>
+      <ListenFor> {mobileR} </ListenFor>
+
+
+
+      <Feedback> I'll bring you to {mobileR} </Feedback>
+      <VoiceCommandService Target="TechtanaCommandService"/>
+    </Command>
+
+
+    <Command Name="searchS">
+      <Example> Search for Visio </Example>
+      <ListenFor> Search for {software}  </ListenFor>
+      <Feedback> Searching for {software}</Feedback>
+      <Navigate/>
+    </Command>
+
+
+
+    <Command Name="CreateFile">
+      <Example> Create file </Example>
+      <ListenFor> Create file </ListenFor>
+      <Feedback> Creating your file </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="OpenFile">
+      <Example> Open file </Example>
+      <ListenFor> Open file </ListenFor>
+      <Feedback> Opening your file </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="SendSerialData">
+      <Example> Send serial data </Example>
+      <ListenFor> Send serial data </ListenFor>
+      <Feedback> Sending serial data </Feedback>
+      <Navigate/>
+    </Command>
+
+    <PhraseList Label="mobileR">
+      <Item> request a mobile device </Item>
+      <Item> request a cell phone </Item>
+      <Item> request a phone </Item>
+      <Item> request a mobile  phone </Item>
+    </PhraseList>
+
+    <PhraseList Label="software">
+      <Item> Visio </Item>
+      <Item> Project </Item>
+      <Item> Access </Item>
+      <Item> Visual Studio </Item>
+    </PhraseList>
+
+   
+    
+   
+   
+
+  </CommandSet>
+
+</VoiceCommands>
