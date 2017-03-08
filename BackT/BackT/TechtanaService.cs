@@ -14,7 +14,7 @@ namespace BackT.VoiceCommands
         public void Run(IBackgroundTaskInstance taskInstance)
         {
             var builder = new BackgroundTaskBuilder();
-            builder.Name = "Background ";
+            builder.Name = "TechtanaService ";
             builder.SetTrigger(new TimeTrigger(15, true));
             // Do not set builder.TaskEntryPoint for in-process background tasks
             // Here we register the task and work will start based on the time trigger.
