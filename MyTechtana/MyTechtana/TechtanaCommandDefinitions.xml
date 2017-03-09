@@ -8,8 +8,8 @@
     <Command Name="openMyTech">
       <Example> Open MyTech </Example>
 
-      <ListenFor> [Open][Can I see][Show me][Bring up][Open up][Can you show me][Take me to][I want to see][Pop up] MyTech </ListenFor>
-      <ListenFor> [Bring me] to MyTech</ListenFor>
+      <ListenFor> [Open][Bring Up][Pop up][Show me] MyTech </ListenFor>
+      <ListenFor> [Take me][Bring me] to MyTech</ListenFor>
       <ListenFor> My tech {*}</ListenFor>
 
 
@@ -21,7 +21,7 @@
     <Command Name="openMyTechnology">
       <Example> Open MyTechnology </Example>
 
-      <ListenFor> [Open][Can I see][Show me][Bring up][Open up][Can you show me][Take me to][I want to see][Pop up] my technology </ListenFor>
+      <ListenFor> [Open][Can I see][Show me][Bring up][Open up][Can you show me][Take me to][I want to see] my technology </ListenFor>
       <ListenFor> What technology do I have</ListenFor>
       <ListenFor> my technology {*}</ListenFor>
 

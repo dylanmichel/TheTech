@@ -1,1 +1,1 @@
-C:\Users\502707459\Source\Repos\GEDigital\TheTech\MyTechtana\MyTechtana\MyTechtana.csproj;x86
+C:\Users\502707467\Desktop\TheFinal\TheTech\MyTechtana\MyTechtana\MyTechtana.csproj;x86
