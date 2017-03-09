@@ -10,8 +10,7 @@ namespace BackT.VoiceCommands
     public sealed class TechtanaService : IBackgroundTask
     {
         
-
-        public void Run(IBackgroundTaskInstance taskInstance)
+        
         {
             var builder = new BackgroundTaskBuilder();
             builder.Name = "TechtanaService ";
