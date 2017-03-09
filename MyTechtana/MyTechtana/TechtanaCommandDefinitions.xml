@@ -9,7 +9,7 @@
       <Example> Open MyTech </Example>
 
       <ListenFor> [Open][Can I see][Show me][Bring up][Open up][Can you show me][Take me to][I want to see][Pop up] MyTech </ListenFor>
-      <ListenFor> [Bring me] to MyTech</ListenFor>
+      <ListenFor> [Bring me] [Take Me] to MyTech</ListenFor>
       <ListenFor> My tech {*}</ListenFor>
 
 
